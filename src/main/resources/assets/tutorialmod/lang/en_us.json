@@ -10,5 +10,8 @@
   "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.tutorialmod.end_sapphire_ore": "End Sapphire Ore",
 
+  "item.tutorialmod.metal_detector": "Metal Detector",
+  "block.tutorialmod.sound_block": "Sound Block",
+
   "creativetab.tutorial_tab" : "Tutorial Tab"
 }

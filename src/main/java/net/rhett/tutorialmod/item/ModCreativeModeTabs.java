@@ -9,6 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.rhett.tutorialmod.TutorialMod;
 import net.rhett.tutorialmod.block.ModBlocks;
+import net.rhett.tutorialmod.item.custom.MetalDetectorItem;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -23,6 +24,7 @@ public class ModCreativeModeTabs {
                         // Item Section of creative tab
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                         // Block Section of creative tab
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
@@ -31,6 +33,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.END_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
 
                     })
